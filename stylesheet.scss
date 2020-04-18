@@ -1,138 +1,280 @@
 $pink: #db0d52;
 
-h1 {
-    font-size: 11vw;
-    text-align: center;
-    font-weight: 100;
-}
-img {
-    width: 100%;
-    height: 70vw;
-}
-#intro {
-    background-color: #042a82;
-    color: white;
-    padding: 1.5vw;
-    text-align: justify;
-    h3 {
-        font-size: 4vw;
-        text-align: left;
-        font-weight: 300;
-    }
-
-    p {
-        font-size: 1.4vw;
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 11vw;
+        text-align: center;
         font-weight: 100;
     }
-}
-#other {
-    padding: 1.5vw;
-    h4 {
-        text-align: center;
-        font-size: 3vw;
-        color: #646b7a;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-    }
-    p {
-        text-align: justify;
-        font-size: 1.4vw;
-        font-weight: 250;
-    }
-}
-
-#boxes_super {
-
-    h3 {
-        font-size: 4.5vw;
-        background-color: $pink;
-        color: white;
-        padding: 2.25vw;
-    }
-    
-    #boxes {
-        display: flex;
-        flex-wrap: wrap;
-
-        div {
-            padding: 1vw;
-            position: relative;
-            img {
-                height: 30vw;
-            }
-            a {
-                color: white;
-                font-size: 3vw;
-                position: absolute;
-                bottom: 0.5vw;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: black;
-                opacity: 0.7;
-                width: 95%;
-                padding: 1.5vw;
-                text-align: center;
-                font-weight: 300;
-            }
-        }
-    }
-}
-
-#pic {
-    width: 100%;
-    height: 30vw;
-}
-
-#table {
-    h2 {
-        font-size: 6vw;
-        color: rgb(6, 112, 233);
-        text-align: center;
-        margin-bottom: 2vw;
-        margin-top: 2vw;
-        font-weight: 200;
-
-    }
-    table {
-        // border-collapse: separate;
-        background-color: rgb(215, 215, 215);
+    img {
         width: 100%;
-        th {
-            font-size: 1.4vw;
-            color: white;
-            background-color: $pink;
-            padding: 2vw;
-            font-weight: 100;
-        }
-        td {
-            font-size: 1.2vw;
-            padding: 2vw;
+        height: 70vw;
+    }
+    #intro {
+        background-color: #042a82;
+        color: white;
+        padding: 1.5vw;
+        text-align: justify;
+        h3 {
+            font-size: 4vw;
+            text-align: left;
             font-weight: 300;
         }
-        .first {
-            font-size: 1.2vw;
-            text-align: left;
-            color: white;
-            background-color: #575656;
-            text-transform: uppercase;
+
+        p {
+            font-size: 1.4vw;
             font-weight: 100;
         }
     }
-}
+    #other {
+        padding: 1.5vw;
+        h4 {
+            text-align: center;
+            font-size: 3vw;
+            color: #646b7a;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+        p {
+            text-align: justify;
+            font-size: 1.4vw;
+            font-weight: 250;
+        }
+    }
 
-#secondlast {
-    font-size: 7vw;
-    padding: 4vw;
-    color: rgb(6, 112, 233);
-    font-weight: 200;
-    text-align: center;
-}
+    #boxes_super {
 
-#last {
-    font-size: 3vw;
-    background-color: $pink;
-    color: white;
-    padding: 1.5vw;
-    text-align: right;
-    font-weight: 300;
+        h3 {
+            font-size: 4.5vw;
+            background-color: $pink;
+            color: white;
+            padding: 2.25vw;
+        }
+        
+        #boxes {
+            display: flex;
+            flex-wrap: wrap;
+
+            div {
+                padding: 1vw;
+                position: relative;
+                img {
+                    height: 30vw;
+                }
+                a {
+                    color: white;
+                    font-size: 3vw;
+                    position: absolute;
+                    bottom: 0.5vw;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 95%;
+                    padding: 1.5vw;
+                    text-align: center;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    #pic {
+        width: 100%;
+        height: 30vw;
+    }
+
+    #table {
+        h2 {
+            font-size: 6vw;
+            color: rgb(6, 112, 233);
+            text-align: center;
+            margin-bottom: 2vw;
+            margin-top: 2vw;
+            font-weight: 200;
+
+        }
+        table {
+            // border-collapse: separate;
+            background-color: rgb(215, 215, 215);
+            width: 100%;
+            th {
+                font-size: 1.4vw;
+                color: white;
+                background-color: $pink;
+                padding: 2vw;
+                font-weight: 100;
+            }
+            td {
+                font-size: 1.2vw;
+                padding: 2vw;
+                font-weight: 300;
+            }
+            .first {
+                font-size: 1.2vw;
+                text-align: left;
+                color: white;
+                background-color: #575656;
+                text-transform: uppercase;
+                font-weight: 100;
+            }
+        }
+    }
+
+    #secondlast {
+        font-size: 7vw;
+        padding: 4vw;
+        color: rgb(6, 112, 233);
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #last {
+        font-size: 3vw;
+        background-color: $pink;
+        color: white;
+        padding: 1.5vw;
+        text-align: right;
+        font-weight: 300;
+    }
+}  
+
+@media screen and (max-width: 499px) {
+    h1 {
+        font-size: 11vw;
+        text-align: center;
+        font-weight: 100;
+    }
+    img {
+        width: 100%;
+        height: 70vw;
+    }
+    #intro {
+        background-color: #042a82;
+        color: white;
+        padding: 2.5vw;
+        text-align: justify;
+        h3 {
+            font-size: 7vw;
+            text-align: left;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 4vw;
+            font-weight: 100;
+        }
+    }
+    #other {
+        padding: 2.5vw;
+        h4 {
+            text-align: center;
+            font-size: 6.5vw;
+            color: #646b7a;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+        p {
+            text-align: justify;
+            font-size: 4vw;
+            font-weight: 250;
+        }
+    }
+
+    #boxes_super {
+
+        h3 {
+            font-size: 7vw;
+            background-color: $pink;
+            color: white;
+            padding: 2.25vw;
+        }
+        
+        #boxes {
+            display: flex;
+            flex-wrap: wrap;
+
+            div {
+                padding: 1vw;
+                position: relative;
+                img {
+                    height: 30vw;
+                }
+                a {
+                    color: white;
+                    font-size: 4vw;
+                    position: absolute;
+                    bottom: 0.5vw;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 95%;
+                    padding: 1.5vw;
+                    text-align: center;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    #pic {
+        width: 100%;
+        height: 30vw;
+    }
+
+    #table {
+        h2 {
+            font-size: 7vw;
+            color: rgb(6, 112, 233);
+            text-align: center;
+            margin-bottom: 2vw;
+            margin-top: 2vw;
+            font-weight: 200;
+
+        }
+        table {
+            // border-collapse: separate;
+            background-color: rgb(215, 215, 215);
+            width: 100%;
+            th {
+                font-size: 2.4vw;
+                color: white;
+                background-color: $pink;
+                padding: 2vw;
+                font-weight: 200;
+            }
+            td {
+                font-size: 2vw;
+                padding: 2vw;
+                font-weight: 300;
+            }
+            .first {
+                font-size: 2vw;
+                text-align: left;
+                color: white;
+                background-color: #575656;
+                text-transform: uppercase;
+                font-weight: 200;
+            }
+        }
+    }
+
+    #secondlast {
+        font-size: 8vw;
+        padding: 4vw;
+        color: rgb(6, 112, 233);
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #last {
+        font-size: 4vw;
+        background-color: $pink;
+        color: white;
+        padding: 1.5vw;
+        text-align: right;
+        font-weight: 300;
+    }
 }
+    
