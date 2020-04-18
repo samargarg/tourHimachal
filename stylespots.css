@@ -3,24 +3,24 @@ img {
 }
 
 body {
-  font-size: 20px;
+  font-size: 1.4vw;
   text-align: justify;
 }
 body h1 {
-  font-size: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  font-size: 7vw;
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
   background-color: #db0d52;
   color: white;
 }
 body #list {
   background-color: #e6e3e3;
-  font-size: 30px;
+  font-size: 2.1vw;
 }
 body #list div {
   background-color: #282727;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 0.7vw;
+  padding: 0.7vw;
 }
 body #list div a {
   color: white;
@@ -30,23 +30,23 @@ body #list div a:hover {
   text-decoration: none;
 }
 body #morephotos {
-  font-size: 40px;
+  font-size: 2.1vw;
   text-align: right;
 }
 body .supersub {
   background-color: #e6e3e3;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 30px;
+  margin-top: 3.5vw;
+  margin-bottom: 3.5vw;
+  padding: 2.1vw;
 }
 body .supersub .subdata {
-  padding: 30px;
+  padding: 2.1vw;
 }
 body .supersub .subheading {
-  font-size: 40px;
+  font-size: 2.8vw;
   color: white;
   background-color: #db0d52;
-  padding: 30px;
+  padding: 2.1vw;
 }
 
 #places #boxes {
@@ -55,30 +55,32 @@ body .supersub .subheading {
 }
 #places #boxes div {
   position: relative;
+  padding: 1.5vw;
 }
 #places #boxes div img {
-  height: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 28vw;
+  margin-right: 0.7vw;
+  margin-top: 0.7vw;
+  margin-bottom: 0.7vw;
 }
 #places #boxes div a {
   color: white;
-  font-size: 25px;
+  font-size: 1.75vw;
   position: absolute;
-  bottom: 4px;
+  bottom: 0.28vw;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
   opacity: 0.7;
   width: 90%;
-  padding: 20px;
+  padding: 1.4vw;
   text-align: center;
 }
 
 #reach .subdata h3 {
-  font-size: 40px;
+  font-size: 2.8vw;
   color: #db0d52;
-  margin-top: 55px;
+  margin-top: 3.85vw;
 }
 #reach .subdata img {
   width: 7%;
@@ -86,38 +88,39 @@ body .supersub .subheading {
   float: left;
 }
 #reach .subdata p {
-  margin: 20px;
+  margin: 1.4vw;
 }
 
 #morespots h2 {
   background-color: black;
-  font-size: 60px;
+  font-size: 4.2vw;
   color: white;
-  padding: 30px;
+  padding: 2.1vw;
 }
 #morespots #moreboxes {
   display: flex;
   flex-wrap: wrap;
 }
 #morespots #moreboxes div {
+  padding: 0.5vw;
   position: relative;
 }
 #morespots #moreboxes div img {
-  height: 150px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 10.5vw;
+  margin-top: 0.7vw;
+  margin-bottom: 0.7vw;
 }
 #morespots #moreboxes div a {
   color: white;
-  font-size: 15px;
+  font-size: 1.05vw;
   position: absolute;
-  bottom: 1px;
+  bottom: 0.07vw;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
   opacity: 0.7;
-  width: 87%;
-  padding: 8px;
+  width: 90%;
+  padding: 1vw;
   text-align: center;
 }
 #morespots #moreboxes div a:hover {
@@ -126,8 +129,8 @@ body .supersub .subheading {
 }
 
 #goback {
-  margin-top: 40px;
-  font-size: 40px;
+  margin-top: 2.8vw;
+  font-size: 2.8vw;
   background-color: #282727;
   text-align: center;
 }
