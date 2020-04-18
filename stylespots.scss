@@ -1,17 +1,40 @@
 $pink: #db0d52;
+@media screen and (min-width: 500px) {
+    img {
+        width: 100%;
+    }
 
-img {
-    width: 100%;
-}
-
-body {
+    body {
+        font-size: 1.4vw;
+        text-align: justify;
+        .supersub {
+            
+            background-color: #e6e3e3;
+            margin-top: 3.5vw;
+            margin-bottom: 3.5vw;
+            padding: 2.1vw;
+        
+            .subdata {
+                padding: 2.1vw;
+            }
+            .subheading {
+                font-size: 2.8vw;
+                color: white;
+                background-color: $pink;
+                padding: 2.1vw;
+            }
+        }
+        
+    }
     h1 {
+        background-color: $pink;
+        color: white;
         font-size: 7vw;
         padding-top: 3.5vw;
         padding-bottom: 3.5vw;
-        background-color: $pink;
-        color: white;
-    }
+        padding-left: 1vw;
+        }
+
     #list {
         background-color: #e6e3e3;
         font-size: 2.1vw;
@@ -28,131 +51,277 @@ body {
             }
         }  
     }
+
     #morephotos {
         font-size: 2.1vw;
         text-align: right;
     }
-    font-size: 1.4vw;
-    text-align: justify;
-    .supersub {
+
+    #places {
         
-        background-color: #e6e3e3;
-        margin-top: 3.5vw;
-        margin-bottom: 3.5vw;
-        padding: 2.1vw;
-    
+        #boxes {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                position: relative;
+                padding: 1.5vw;
+                img {
+                    height: 28vw;
+                    margin-right: 0.7vw;
+                    margin-top: 0.7vw;
+                    margin-bottom: 0.7vw;
+                }
+                a {
+                    color: white;
+                    font-size: 1.75vw;
+                    position: absolute;
+                    bottom: 0.28vw;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 90%;
+                    padding: 1.4vw;
+                    text-align: center;
+                }
+            }
+        }
+    }  
+
+    #reach {
         .subdata {
-            padding: 2.1vw;
+            h3 {
+                font-size: 2.8vw;
+                color: $pink;
+                margin-top: 3.85vw;
+            }
+            img {
+                width: 7%;
+                height: auto;
+                float: left;
+            }
+            p {
+                margin: 1.4vw;
+            }
         }
-        .subheading {
-            font-size: 2.8vw;
+    }
+
+    #morespots {
+        h2 {
+            background-color: black;
+            font-size: 4.2vw;
             color: white;
-            background-color: $pink;
             padding: 2.1vw;
         }
-    }
-    
-}
-
-#places {
-    
-    #boxes {
-        display: flex;
-        flex-wrap: wrap;
-        div {
-            position: relative;
-            padding: 1.5vw;
-            img {
-                height: 28vw;
-                margin-right: 0.7vw;
-                margin-top: 0.7vw;
-                margin-bottom: 0.7vw;
+        
+        #moreboxes {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                padding: 0.5vw;
+                position: relative;
+                width: 16.65%;
+                img {
+                    height: 10.5vw;
+                    margin-top: 0.7vw;
+                    margin-bottom: 0.7vw;
+                }
+                a {
+                    color: white;
+                    font-size: 1.05vw;
+                    position: absolute;
+                    bottom: 0.07vw;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 90%;
+                    padding: 1vw;
+                    text-align: center;
+                }
+                a:hover {
+                    text-decoration: none;
+                    font-weight: bold;
+                }
             }
-            a {
-                color: white;
-                font-size: 1.75vw;
-                position: absolute;
-                bottom: 0.28vw;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: black;
-                opacity: 0.7;
-                width: 90%;
-                padding: 1.4vw;
-                text-align: center;
-            }
         }
     }
-}  
 
-#reach {
-    .subdata {
-        h3 {
-            font-size: 2.8vw;
-            color: $pink;
-            margin-top: 3.85vw;
+    #goback {
+        margin-top: 2.8vw;
+        font-size: 2.8vw;
+        background-color: rgb(40, 39, 39);
+        text-align: center;
+        a {
+            color: white;
         }
-        img {
-            width: 7%;
-            height: auto;
-            float: left;
-        }
-        p {
-            margin: 1.4vw;
+        a:hover {
+            color: yellow;
+            text-decoration: none;
         }
     }
 }
+@media screen and (max-width: 499px) {
+    img {
+        width: 100%;
+    }
 
-#morespots {
-    h2 {
-        background-color: black;
+    body {
         font-size: 4.2vw;
-        color: white;
-        padding: 2.1vw;
-    }
-    
-    #moreboxes {
-        display: flex;
-        flex-wrap: wrap;
-        div {
-            padding: 0.5vw;
-            position: relative;
-            img {
-                height: 10.5vw;
-                margin-top: 0.7vw;
-                margin-bottom: 0.7vw;
+        text-align: justify;
+        .supersub {
+            
+            background-color: #e6e3e3;
+            margin-top: 3.5vw;
+            margin-bottom: 3.5vw;
+            padding: 2.1vw;
+        
+            .subdata {
+                padding: 2.1vw;
             }
+            .subheading {
+                font-size: 6.5vw;
+                color: white;
+                background-color: $pink;
+                padding: 2.1vw;
+            }
+        }
+        
+    }
+    h1 {
+        background-color: $pink;
+        color: white;
+        font-size: 8vw;
+        padding-top: 3.5vw;
+        padding-bottom: 3.5vw;
+        padding-left: 1vw;
+        }
+
+    #list {
+        background-color: #e6e3e3;
+        font-size: 7vw;
+        div {
             a {
                 color: white;
-                font-size: 1.05vw;
-                position: absolute;
-                bottom: 0.07vw;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                background-color: black;
-                opacity: 0.7;
-                width: 90%;
-                padding: 1vw;
-                text-align: center;
             }
+            background-color: rgb(40, 39, 39);
+            margin-top: 0.7vw;
+            padding: 0.7vw;
             a:hover {
+                color: yellow;
                 text-decoration: none;
-                font-weight: bold;
+            }
+        }  
+    }
+
+    #morephotos {
+        font-size: 5.5vw;
+        text-align: right;
+    }
+
+    #places {
+        
+        #boxes {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                position: relative;
+                padding: 1.5vw;
+                img {
+                    height: 28vw;
+                    margin-right: 0.7vw;
+                    margin-top: 0.7vw;
+                    margin-bottom: 0.7vw;
+                }
+                a {
+                    color: white;
+                    font-size: 4vw;
+                    position: absolute;
+                    bottom: 0.28vw;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 90%;
+                    padding: 1.4vw;
+                    text-align: center;
+                }
+            }
+        }
+    }  
+
+    #reach {
+        .subdata {
+            h3 {
+                font-size: 4.5vw;
+                color: $pink;
+                margin-top: 3.85vw;
+            }
+            img {
+                width: 16%;
+                height: auto;
+                float: left;
+            }
+            p {
+                margin: 1.4vw;
             }
         }
     }
-}
 
-#goback {
-    margin-top: 2.8vw;
-    font-size: 2.8vw;
-    background-color: rgb(40, 39, 39);
-    text-align: center;
-    a {
-        color: white;
+    #morespots {
+        h2 {
+            background-color: black;
+            font-size: 6.5vw;
+            color: white;
+            padding: 2.1vw;
+        }
+        
+        #moreboxes {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                padding: 0.5vw;
+                position: relative;
+                width: 100%;
+                img {
+                    height: 60vw;
+                    margin-top: 0.7vw;
+                    margin-bottom: 0.7vw;
+                }
+                a {
+                    color: white;
+                    font-size: 4vw;
+                    position: absolute;
+                    bottom: 0.07vw;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: black;
+                    opacity: 0.7;
+                    width: 90%;
+                    padding: 1vw;
+                    text-align: center;
+                }
+                a:hover {
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }
     }
-    a:hover {
-        color: yellow;
-        text-decoration: none;
+
+    #goback {
+        margin-top: 2.8vw;
+        padding: 3vw;
+        font-size: 5vw;
+        background-color: rgb(40, 39, 39);
+        text-align: center;
+        a {
+            color: white;
+        }
+        a:hover {
+            color: yellow;
+            text-decoration: none;
+        }
     }
 }
+    
