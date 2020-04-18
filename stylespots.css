@@ -1,0 +1,142 @@
+img {
+  width: 100%;
+}
+
+body {
+  font-size: 20px;
+  text-align: justify;
+}
+body h1 {
+  font-size: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #db0d52;
+  color: white;
+}
+body #list {
+  background-color: #e6e3e3;
+  font-size: 30px;
+}
+body #list div {
+  background-color: #282727;
+  margin-top: 10px;
+  padding: 10px;
+}
+body #list div a {
+  color: white;
+}
+body #list div a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+body #morephotos {
+  font-size: 40px;
+  text-align: right;
+}
+body .supersub {
+  background-color: #e6e3e3;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+body .supersub .subdata {
+  padding: 30px;
+}
+body .supersub .subheading {
+  font-size: 40px;
+  color: white;
+  background-color: #db0d52;
+  padding: 30px;
+}
+
+#places #boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+#places #boxes div {
+  position: relative;
+}
+#places #boxes div img {
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#places #boxes div a {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0.7;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+#reach .subdata h3 {
+  font-size: 40px;
+  color: #db0d52;
+  margin-top: 55px;
+}
+#reach .subdata img {
+  width: 7%;
+  height: auto;
+  float: left;
+}
+#reach .subdata p {
+  margin: 20px;
+}
+
+#morespots h2 {
+  background-color: black;
+  font-size: 60px;
+  color: white;
+  padding: 30px;
+}
+#morespots #moreboxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+#morespots #moreboxes div {
+  position: relative;
+}
+#morespots #moreboxes div img {
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#morespots #moreboxes div a {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0.7;
+  width: 87%;
+  padding: 8px;
+  text-align: center;
+}
+#morespots #moreboxes div a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#goback {
+  margin-top: 40px;
+  font-size: 40px;
+  background-color: #282727;
+  text-align: center;
+}
+#goback a {
+  color: white;
+}
+#goback a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=stylespots.css.map */
