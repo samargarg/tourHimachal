@@ -106,6 +106,13 @@ $pink: #db0d52;
         }
     }
 
+    #reference {
+        a, li {
+            color: rgb(0, 132, 255);
+            list-style-type: lower-greek;
+        }
+    }
+
     #morespots {
         h2 {
             background-color: black;
@@ -265,6 +272,13 @@ $pink: #db0d52;
             p {
                 margin: 1.4vw;
             }
+        }
+    }
+
+    #reference {
+        a, li {
+            color: rgb(0, 132, 255);
+            list-style-type: lower-greek;
         }
     }
 

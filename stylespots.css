@@ -96,6 +96,11 @@
     margin: 1.4vw;
   }
 
+  #reference a, #reference li {
+    color: #0084ff;
+    list-style-type: lower-greek;
+  }
+
   #morespots h2 {
     background-color: black;
     font-size: 4.2vw;
@@ -244,6 +249,11 @@
   }
   #reach .subdata p {
     margin: 1.4vw;
+  }
+
+  #reference a, #reference li {
+    color: #0084ff;
+    list-style-type: lower-greek;
   }
 
   #morespots h2 {
