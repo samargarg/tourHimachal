@@ -1,6 +1,13 @@
 $pink: #db0d52;
 
 @media screen and (min-width: 500px) {
+    .navbar-brand {
+        img {
+            height: 5vw;
+            width: 20vw;
+        }
+    }
+    
     h1 {
         font-size: 11vw;
         text-align: center;
@@ -140,6 +147,12 @@ $pink: #db0d52;
 }  
 
 @media screen and (max-width: 499px) {
+    .navbar-brand {
+        img {
+            height: 15vw;
+            width: 60vw;
+        }
+    }
     h1 {
         font-size: 11vw;
         text-align: center;

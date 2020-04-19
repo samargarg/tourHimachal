@@ -1,4 +1,15 @@
 @media screen and (min-width: 500px) {
+  #morespots #moreboxes div a, #places #boxes div a {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.7;
+    width: 90%;
+    text-align: center;
+  }
+
   img {
     width: 100%;
   }
@@ -21,6 +32,11 @@
     color: white;
     background-color: #db0d52;
     padding: 2.1vw;
+  }
+
+  .navbar-brand img {
+    height: 5vw;
+    width: 20vw;
   }
 
   h1 {
@@ -69,17 +85,9 @@
     margin-bottom: 0.7vw;
   }
   #places #boxes div a {
-    color: white;
     font-size: 1.75vw;
-    position: absolute;
     bottom: 0.28vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    opacity: 0.7;
-    width: 90%;
     padding: 1.4vw;
-    text-align: center;
   }
 
   #reach .subdata h3 {
@@ -122,17 +130,9 @@
     margin-bottom: 0.7vw;
   }
   #morespots #moreboxes div a {
-    color: white;
     font-size: 1.05vw;
-    position: absolute;
     bottom: 0.07vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    opacity: 0.7;
-    width: 90%;
     padding: 1vw;
-    text-align: center;
   }
   #morespots #moreboxes div a:hover {
     text-decoration: none;
@@ -154,6 +154,17 @@
   }
 }
 @media screen and (max-width: 499px) {
+  #morespots #moreboxes div a, #places #boxes div a {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.7;
+    width: 90%;
+    text-align: center;
+  }
+
   img {
     width: 100%;
   }
@@ -176,6 +187,11 @@
     color: white;
     background-color: #db0d52;
     padding: 2.1vw;
+  }
+
+  .navbar-brand img {
+    height: 15vw;
+    width: 60vw;
   }
 
   h1 {
@@ -224,17 +240,9 @@
     margin-bottom: 0.7vw;
   }
   #places #boxes div a {
-    color: white;
     font-size: 4vw;
-    position: absolute;
     bottom: 0.28vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    opacity: 0.7;
-    width: 90%;
     padding: 1.4vw;
-    text-align: center;
   }
 
   #reach .subdata h3 {
@@ -277,17 +285,9 @@
     margin-bottom: 0.7vw;
   }
   #morespots #moreboxes div a {
-    color: white;
     font-size: 4vw;
-    position: absolute;
     bottom: 0.07vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    opacity: 0.7;
-    width: 90%;
     padding: 1vw;
-    text-align: center;
   }
   #morespots #moreboxes div a:hover {
     text-decoration: none;
